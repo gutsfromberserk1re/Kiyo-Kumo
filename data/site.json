@@ -1,0 +1,9 @@
+{
+  "company": "Kiyo Kumo LTD",
+  "headline": "QUIET TOOLS,\nBUILT SHARP.",
+  "intro": "Kiyo Kumo LTD makes small, fast software with a lo-fi technical feel: desktop apps, mobile readers and utilities that stay out of your way.",
+  "about": "We are a tiny studio. We care about speed, clarity and craft, and we ship things we would use ourselves.",
+  "principles": ["Fewer features, done properly", "Dark, calm, readable interfaces", "Your data stays yours"],
+  "contact": { "email": "hello@example.com", "github": "https://github.com" },
+  "stats": { "base_visits": 41092, "demo": true }
+}

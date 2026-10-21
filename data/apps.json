@@ -1,0 +1,15 @@
+{
+  "updated": "2026-10-21",
+  "apps": [
+    {"id": "product-one", "name": "Product One", "platform": "desktop", "version": "1.0", "image": "images/product-one.svg",
+     "tagline": "A fast desktop tool.", "description": "Replace this with a real description of the app.",
+     "features": ["Feature one", "Feature two", "Feature three"],
+     "links": [{"label": "↓ Download", "url": "https://example.com"}, {"label": "> GitHub", "url": "https://github.com"}]},
+    {"id": "product-two", "name": "Product Two", "platform": "android", "version": "0.9", "image": "images/product-two.svg",
+     "tagline": "A calm mobile reader.", "description": "Replace this with a real description of the app.",
+     "features": ["Feature one", "Feature two"], "links": [{"label": "↓ Download", "url": "https://example.com"}]},
+    {"id": "product-three", "name": "Product Three", "platform": "web", "version": "2.1", "image": "images/product-three.svg",
+     "tagline": "A tiny web utility.", "description": "Replace this with a real description of the app.",
+     "features": ["Feature one"], "links": [{"label": "> Open", "url": "https://example.com"}]}
+  ]
+}

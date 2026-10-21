@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<title>kiyo kumo LTD</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=DotGothic16&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo" id="logo">KIYO KUMO LTD</div>
+    <div class="stat">Visits deployed: <b id="visits">0</b> &nbsp; Online now: <b id="online">0</b></div>
+  </header>
+
+  <div class="grid">
+    <aside class="box">
+      <div class="cap">kiyo-kumo / <b>menu</b></div>
+      <nav id="nav" aria-label="Main"></nav>
+      <div class="keys">[ENTER] select · [↑↓] move · [←→] fold · [/] search · [ESC] home</div>
+    </aside>
+
+    <main class="box">
+      <div class="cap" id="path">kiyo-kumo / <b>home</b></div>
+      <section id="view" class="page" aria-live="polite"></section>
+    </main>
+
+    <aside class="box">
+      <div class="cap">signal / <b>ascii</b></div>
+<pre class="ascii" aria-hidden="true">
+        .--~~~~--.
+     .-(          )-.
+   (                  )
+  (   K I Y O          )
+   (     K U M O     )
+     `-.__      __.-'
+          `----'
+   ~  ~  ~  ~  ~  ~  ~
+    ~  ~  ~  ~  ~  ~
+</pre>
+    </aside>
+  </div>
+
+  <div class="box act">
+    <h3>Activity · last 2 days <span class="tag" id="demo" hidden>demo data</span></h3>
+    <div id="days"></div>
+  </div>
+
+  <footer>kiyo kumo <span>LTD</span></footer>
+</div>
+<script src="js/app.js" defer></script>
+</body>
+</html>
